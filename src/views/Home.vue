@@ -4,6 +4,7 @@
     <TopView></TopView>
     <SalesView></SalesView>
     <CategoryView></CategoryView>
+    <Mapview></Mapview>
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import TopView from '../components/TopView/index.vue'
 import SalesView from '../components/SalesView/index.vue'
 import CategoryView from '../components/CategoryView/index.vue'
+import Mapview from '../components/Mapview/index.vue'
 export default {
   name: '',
   components: {
     TopView,
     SalesView,
-    CategoryView
+    CategoryView,
+    Mapview
   },
 };
 </script>
@@ -27,6 +30,7 @@ export default {
   padding: 20px;
   background: #eee;
   box-sizing: border-box;
+  margin-bottom: 100px;
 }
 
 .title {
